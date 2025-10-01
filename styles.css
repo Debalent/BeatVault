@@ -41,3 +41,25 @@ form input, form textarea {
   max-height: 500px;
   object-fit: cover;
 }
+
+/* ======= Beat Title Styling ======= */
+h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #6c63ff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ======= Audio Player Styling ======= */
+audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* ======= Section Spacing ======= */
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
