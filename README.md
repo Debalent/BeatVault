@@ -1,8 +1,3 @@
-Let’s lock in a fresh `README.md` that reflects your updated direction—sharing beats directly on the site, showcasing your FL Studio workflow, and using Bootstrap to power the layout. Here’s a clean, confident version that hits every requirement and feels true to your style:
-
----
-
-```markdown
 # 🎧 Demond’s Beat Lab
 
 Welcome to my personal beat-making showcase! This site highlights my creative process using FL Studio, where I turn samples into full tracks. Built entirely with Bootstrap, it demonstrates how modern frameworks can speed up development while keeping design flexible and responsive.
@@ -10,8 +5,7 @@ Welcome to my personal beat-making showcase! This site highlights my creative pr
 ---
 
 ## 🚀 Live Site
-[Visit Demond’s Beat Lab on GitHub Pages](https://your-github-username.github.io/your-repo-name)
-
+[Visit Demond’s Beat Lab on GitHub Pages](https://debalent.github.io/BeatVault)
 ---
 
 ## 📁 Project Structure
