@@ -9,13 +9,12 @@
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- ======= Header & Navbar ======= -->
   <header class="bg-dark text-white text-center py-4">
     <h1>🎧 Demond's Beat Lab</h1>
     <p class="lead">Where samples become soundscapes</p>
   </header>
 
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">BeatVault</a>
@@ -26,48 +25,151 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#beats">Beats</a></li>
           <li class="nav-item"><a class="nav-link" href="#workflow">Workflow</a></li>
+          <li class="nav-item"><a class="nav-link" href="#genre">Genre</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Carousel Placeholder -->
+  <!-- ======= Carousel: Featured Beats ======= -->
   <section id="beats" class="container my-5">
     <h2 class="text-center mb-4">Featured Beats</h2>
-    <!-- Carousel goes here -->
+    <div id="beatCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#beatCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#beatCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#beatCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/beat-cover-1.jpg" class="d-block w-100" alt="Beat Cover 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Midnight Sample</h5>
+            <p>Chopped soul loop with layered drums.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/beat-cover-2.jpg" class="d-block w-100" alt="Beat Cover 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lofi Loop</h5>
+            <p>Warm textures and mellow vibes.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/beat-cover-3.jpg" class="d-block w-100" alt="Beat Cover 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Drill Pulse</h5>
+            <p>Hard-hitting rhythm with vocal chops.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#beatCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#beatCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
   </section>
 
-  <!-- Accordion Placeholder -->
+  <!-- ======= Accordion: FL Studio Workflow ======= -->
   <section id="workflow" class="container my-5">
     <h2 class="text-center mb-4">My FL Studio Workflow</h2>
-    <!-- Accordion goes here -->
+    <div class="accordion" id="workflowAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Sampling
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#workflowAccordion">
+          <div class="accordion-body">I dig through vinyl, YouTube, or sample packs to find unique textures.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Chopping
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#workflowAccordion">
+          <div class="accordion-body">I slice the sample into usable pieces and arrange them into loops or progressions.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Mixing & Exporting
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#workflowAccordion">
+          <div class="accordion-body">I balance levels, add effects, and export the beat for sharing or mastering.</div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Modal Placeholder -->
+  <!-- ======= Modal: Beat Preview ======= -->
   <section class="container my-5">
     <h2 class="text-center mb-4">Preview a Beat</h2>
-    <!-- Modal trigger and modal structure go here -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#beatModal">
+      Open Beat Preview
+    </button>
+    <div class="modal fade" id="beatModal" tabindex="-1" aria-labelledby="beatModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="beatModalLabel">Beat Preview</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Audio player will be added later -->
+            <p>Audio preview coming soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Dropdown Placeholder -->
-  <section class="container my-5">
+  <!-- ======= Dropdown: Genre Selector ======= -->
+  <section id="genre" class="container my-5">
     <h2 class="text-center mb-4">Choose Your Genre</h2>
-    <!-- Dropdown goes here -->
+    <select class="form-select w-50 mx-auto">
+      <option selected>Select a genre</option>
+      <option value="1">Trap</option>
+      <option value="2">Lo-fi</option>
+      <option value="3">Drill</option>
+      <option value="4">Boom Bap</option>
+      <option value="5">Experimental</option>
+    </select>
   </section>
 
-  <!-- Contact Form + Toast Placeholder -->
+  <!-- ======= Contact Form & Toast ======= -->
   <section id="contact" class="container my-5">
     <h2 class="text-center mb-4">Contact Me</h2>
-    <!-- Form and toast go here -->
+    <form onsubmit="showToast(); return false;" class="w-75 mx-auto">
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="emailInput" required>
+      </div>
+      <div class="mb-3">
+        <label for="messageInput" class="form-label">Message</label>
+        <textarea class="form-control" id="messageInput" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Send</button>
+    </form>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="contactToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <strong class="me-auto">Message Sent</strong>
+          <small>Just now</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">Thanks for reaching out!</div>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Demond Balentine | SoundCloud • YouTube • Instagram</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="scripts.js"></script>
-</body>
-</html>
+  <!-- ======= Footer & Scripts ======= -->
+  <
