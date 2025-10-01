@@ -4,69 +4,73 @@ Welcome to my personal beat-making showcase! This site highlights my creative pr
 
 ---
 
-## 🚀 Live Site
-[Visit Demond’s Beat Lab on GitHub Pages](https://debalent.github.io/BeatVault)
----
-
-## 📁 Project Structure
-- `index.html` – Main page with Bootstrap components
-- `styles.css` – Custom colors and font sizes only
-- `scripts.js` – Optional interactivity (e.g., modal triggers)
-- `assets/audio/` – Folder containing a few of my original beats
-- `README.md` – Project overview and reflection
+## 🚀 Live Site  
+Visit Demond’s Beat Lab on GitHub Pages: [https://Debalent.github.io/BeatVault](#)
 
 ---
 
-## 🎵 Featured Beats
-You can preview a few of my original beats directly on the site. Each one was created in FL Studio using chopped samples, layered drums, and custom effects. The audio players are embedded using HTML5 and styled with Bootstrap cards and modals.
+## 📁 Project Structure  
+- `index.html` – Main page with Bootstrap components  
+- `styles.css` – Custom colors and font sizes only  
+- `scripts.js` – Toast trigger for contact form  
+- `assets/audio/` – Folder containing original beats  
+- `assets/images/` – Logo and beat thumbnails  
+- `README.md` – Project overview and reflection  
 
 ---
 
-## 🧩 Bootstrap Components Used
-- **Carousel** – Showcases beat thumbnails and sample pack covers
-- **Modal** – Opens a popup to preview a beat
-- **Accordion** – Breaks down my FL Studio workflow
-- **Dropdown** – Lets users select favorite genres
-- **Toast** – Confirms contact form submission
+## 🎵 Featured Beats  
+You can preview six original beats directly on the site. Each one was created in FL Studio using chopped samples, layered drums, and custom effects. Audio players are embedded using HTML5 and styled with Bootstrap grid layout. A shared thumbnail image is used for each beat and also serves as the site logo.
 
 ---
 
-## 🎨 Custom CSS
-Only used for:
-- Font sizing and header styling
-- Custom color palette to match my beat-making vibe
+## 🧩 Bootstrap Components Used  
+- **Accordion** – Breaks down my FL Studio workflow  
+- **Dropdown** – Lets users select favorite genres  
+- **Toast** – Confirms contact form submission  
+- **Navbar** – Includes logo and navigation links  
+- **Grid System** – Organizes beat previews responsively  
+
+---
+
+## 🎨 Custom CSS  
+Only used for:  
+- Font sizing and header styling  
+- Custom color palette to match my beat-making vibe  
+- Beat title formatting and audio spacing  
 
 All layout, spacing, and responsiveness handled with Bootstrap utilities.
 
 ---
 
-## 🧠 Reflection
+## 🧠 Reflection  
 
-### Most Challenging Component
-**Scrollspy** (optional): It required precise setup and was tricky to get working smoothly across screen sizes.
+### Most Challenging Component  
+**Audio embedding**: Managing filenames with spaces and special characters required careful path handling and testing across browsers.
 
-### Easiest Component
-**Modal**: Bootstrap handled all the logic—just a few attributes and it worked perfectly.
+### Easiest Component  
+**Toast**: Bootstrap handled all the logic—just a few attributes and it worked perfectly.
 
-### How Bootstrap Helped
+### How Bootstrap Helped  
 It sped up layout and responsiveness, reduced my CSS file size, and kept my code clean and maintainable.
 
-### Likes & Dislikes
+### Likes & Dislikes  
 ✅ Loved the utility classes and responsive grid  
 ❌ Disliked how cluttered HTML can get with too many utility classes
 
 ---
 
-## ✅ Testing Checklist
-- [x] Hosted on GitHub Pages
-- [x] Works in Chrome, Firefox, Safari
-- [x] Fully responsive on desktop and mobile
-- [x] Bootstrap components function correctly
-- [x] Minimal custom CSS
-- [x] Code is well-commented and organized
+## ✅ Testing Checklist  
+- Hosted on GitHub Pages  
+- Works in Chrome, Firefox, Safari  
+- Fully responsive on desktop and mobile  
+- Bootstrap components function correctly  
+- Minimal custom CSS  
+- Code is well-commented and organized  
 
 ---
 
-## 📬 Contact
-Want to collaborate or hear more beats? Hit me up via the contact form or find me on SoundCloud https://on.soundcloud.com/Q3Z5WEiG7w2PlAHeew
+## 📬 Contact  
+Want to collaborate or hear more beats? Hit me up via the contact form or find me on SoundCloud:  
+🔗 [https://on.soundcloud.com/Q3Z5WEiG7w2PlAHeew](https://on.soundcloud.com/Q3Z5WEiG7w2PlAHeew)
 
