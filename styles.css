@@ -1,0 +1,43 @@
+/* ======= Typography ======= */
+h1, h2, h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+}
+
+p, label, button {
+  font-size: 1rem;
+}
+
+/* ======= Custom Colors ======= */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+header {
+  background-color: #1a1a1a; /* Dark header */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #6c63ff; /* Custom purple */
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+/* ======= Form Styling ======= */
+form input, form textarea {
+  border-radius: 6px;
+}
+
+/* ======= Carousel Image Sizing ======= */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
